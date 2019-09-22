@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img class="draggable" alt="Vue logo" src="../assets/logo.png">
     <br>
     <input placeholder="Enter text..." v-model="noteText" type="text"><button @click="createNote()">Add Note</button>
     <div>
